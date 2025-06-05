@@ -21,12 +21,32 @@ aside {
 }
 
 header {
-    margin: null;
-    border: null;
+    margin: 0px;
+    border: 0px;
     display: flex;
     width: auto;
-    padding: null;
+    padding: 0px;
     align-items: center;
     padding: 10px;
     background-color: rgb(11, 94, 37);
+}
+
+h1, h2, h3{
+    text-align: center;
+  
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 36px;
+    color: white;
+}
+
+header nav ul li a{
+    text-align: right;
 }
