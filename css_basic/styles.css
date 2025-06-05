@@ -10,12 +10,12 @@ main {
     flex: auto;
 }
 
-main.article {
+article {
     flex: 2;
     overflow-y: auto;
 }
 
-main.asided {
+aside {
     flex: 1;
     overflow-y: auto;
 }
