@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+main.article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+main.asided {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header {
+    margin: null;
+    border: null;
+    display: flex;
+    width: auto;
+    padding: null;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(11, 94, 37);
+}
